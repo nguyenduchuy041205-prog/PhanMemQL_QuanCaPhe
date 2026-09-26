@@ -1,0 +1,18 @@
+﻿using DAO;
+using DTO;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BUS
+{
+    public class Menu_BUS
+    {
+        public static List<Menu_DTO> LayDanhSachMenuTheoBan(int maBan)
+        {
+            return Menu_DAO.LayDanhSachMenuTheoBan(maBan);
+        }
+    }
+}
